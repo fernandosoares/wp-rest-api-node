@@ -5,13 +5,13 @@
   "main": "app.js",
   "scripts": {
     "sass": "node-sass src/assets/scss/main.scss public/css/main.css",
-    "start": "nodemon"
+    "start:dev": "nodemon",
+    "start": "node app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.25.0",
-    "body-parser": "^1.19.1",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
